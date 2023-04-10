@@ -1,8 +1,10 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  experimental: {
-    appDir: true,
+// next.config.js
+module.exports = {
+  reactStrictMode: true,
+  exportPathMap: async function () {
+    return {
+      '/': { page: '/' },
+    };
   },
-}
-
-module.exports = nextConfig
+  output: 'export',
+};
