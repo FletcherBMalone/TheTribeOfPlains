@@ -1,8 +1,7 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+module.exports = {
   experimental: {
-    appDir: true,
+    // Remove the `images` property from your configuration
   },
-}
-
-module.exports = nextConfig
+  // Add the `output` option to enable static HTML export
+  output: "export",
+};
