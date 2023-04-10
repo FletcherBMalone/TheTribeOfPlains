@@ -7,7 +7,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Fletcher Malone | Home',
-  description: '"The Tribe of Plain Poem"'
+  description: 'The Tribe of Plain Poem'
 }
 
 const inter = Inter({ subsets: ['latin'] })
@@ -40,7 +40,7 @@ export default function Home() {
           </LargeHeading>
           <Paragraph className='max-w-xl lg:text-left text-white'>
           Hello, my name is Fletcher. Today I am happy to present <br/>
-          to you a poem I have written entitled "The Tribe of Plains",<br />
+          to you a poem I have written entitled &quot;The Tribe of Plains&quot;,<br />
           which covers the events of the North-West Rebellion of <br />
           1885. Please find the poem linked {' '}
           <Link href='/poem' className='underline underline-offset-2 text-black dark:text-light-gold'>
@@ -81,7 +81,7 @@ export default function Home() {
           layout='fill'
           objectFit='cover'
           src='/footer.JPG'
-          alt="header image"
+          alt='header image'
         />
       </div>
     </div>
