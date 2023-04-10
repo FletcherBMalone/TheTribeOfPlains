@@ -1,6 +1,6 @@
 module.exports = {
   experimental: {
     appDir: true,
-    output: "export"
+    output: "export",
   }
 };

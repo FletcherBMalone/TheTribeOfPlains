@@ -8,7 +8,7 @@ import 'simplebar-react/dist/simplebar.min.css'
 
 const PoemsTab: FC = () => {
   return (
-    <div className='flex w-[700px] max-h-[420px] text-center text-2xl leading-10 whitespace-pre-wrap'>
+    <div className='flex w-[1000px] pb-[100px] text-center text-[20px] leading-10 whitespace-pre-wrap'>
         {paragraph}
     </div>
   )

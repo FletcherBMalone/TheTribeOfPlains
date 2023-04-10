@@ -25,7 +25,7 @@ const page: FC = ({}) => {
         </Link>
       </div>
       
-        <div className='m-0 p-0 h-screen flex pt-[100px] justify-center content-center text-center'>
+        <div className='m-0 p-0 h-screen flex pt-[100px] pb-[10000px] justify-center content-center text-center'>
             <div className='container m-0 p-0 max-w-8xl mx-auto w-full text-center'>
                 <div className='gap-6 flex flex-col justify-start lg:justify-center items-center text-center'>
                     <Paragraph className='text-[#ffffffb7] text-center'>
@@ -37,7 +37,7 @@ const page: FC = ({}) => {
                     >
                         The Tribe of Plains
                     </LargeHeading>
-                    <div className='flex flex-col lg:flex-row gap-4 w-[1000px] items-start'>
+                    <div className='flex flex-col lg:flex-row gap-4 w-[1200px] items-start mb-5'>
                       <PoemsTab />
                       <div>
                         <Paragraph className='text-center'>
