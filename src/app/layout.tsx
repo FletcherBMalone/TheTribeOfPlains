@@ -4,7 +4,7 @@ import { cn } from '@/lib/utils';
 import { Inter } from 'next/font/google';
 
 
-const inter = Inter({subsets: ['latin']})
+// const inter = Inter({subsets: ['latin']})
 
 export const metadata = {
   title: 'Fletcher Malone',
@@ -17,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={cn('bg-white text-slate-900 antialiased', inter.className)}>
+    <html lang="en" className={cn('bg-white text-slate-900 antialiased')}>
       <body className='min-h-screen bg-white dark:white antialiased'>
         <Providers>
           {children}
